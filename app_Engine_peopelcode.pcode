@@ -1,0 +1,18 @@
+Local JavaObject &j;
+Local number &rc;
+ 
+/* Absolute paths */
+&JarPath = "<GET YOUR PATH TO JAR FILE IN REPO>/MinimalPdfPassword.jar";
+&sourcePdfPath = "<GET YOUR PATH TO SOURCE PDF FILE>/file.pdf";
+&targetPdfPath = "<GET YOUR PATH TO TArget PDF FILE>/secured/file.pdf";
+ 
+/* Create Java class */
+&j = CreateJavaObject("CallPdfPasswordJar");
+ 
+ 
+/* Call static method */
+&rc = &j.addPassword(&JarPath, &sourcePdfPath, targetPdfPath, "YOUR_DESIRED_PW");
+ 
+If &rc <> 0 Then
+   Error ("PDF password failed. RC=" | &rc);
+End-If;
