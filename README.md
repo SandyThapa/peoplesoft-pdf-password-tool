@@ -39,7 +39,7 @@ Prebuilt JAR files are available under GitHub Releases.
 
 Developers do not need to build the project to use it.
 Simply download the JAR and reference it from PeopleSoft.
-
+https://github.com/SandyThapa/peoplesoft-pdf-password-tool/releases/tag/V1
 ---
 ## Running from command line
 
