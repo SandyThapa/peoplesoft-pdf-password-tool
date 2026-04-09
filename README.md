@@ -33,7 +33,14 @@ This utility keeps PDF security logic outside PeopleSoft and in Java, where it b
 • Apache PDFBox  
 
 ---
+## Downloading the JAR
 
+Prebuilt JAR files are available under GitHub Releases.
+
+Developers do not need to build the project to use it.
+Simply download the JAR and reference it from PeopleSoft.
+
+---
 ## Running from command line
 
 Example
